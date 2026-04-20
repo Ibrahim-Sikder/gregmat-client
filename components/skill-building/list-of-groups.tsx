@@ -1,0 +1,77 @@
+import {
+  BookOpen,
+  FileText,
+  MessageSquare,
+  Type,
+  Users,
+  List,
+  Info,
+} from "lucide-react";
+
+export const skills = [
+  {
+    id: 1,
+    title: "Main Idea",
+    link: "/skill-building/main-idea",
+    description: "Try and figure out the main idea from reading paragraphs.",
+    icon: BookOpen,
+    isNew: false,
+    scoreKey: null,
+  },
+  {
+    id: 2,
+    title: "Sentence Simplifying",
+    link: "/skill-building/sentence-simplifying",
+    description: "Try to simplify complex reading sentences.",
+    icon: FileText,
+    isNew: false,
+    scoreKey: null,
+  },
+  {
+    id: 3,
+    title: "Sentence Rephrasing",
+    link: "/skill-building/sentence-rephrasing",
+    description:
+      "Test how well you can rephrase sentences from reading passages.",
+    icon: MessageSquare,
+    isNew: false,
+    scoreKey: null,
+  },
+  {
+    id: 4,
+    title: "Vocab Check",
+    link: "/skill-building/vocab-check",
+    description: "Check your knowledge of the vocab mountain.",
+    icon: Type,
+    isNew: false,
+    scoreKey: null,
+  },
+  {
+    id: 5,
+    title: "Pairing (SE)",
+    link: "/skill-building/pairing",
+    description: "Find synonym pairs among the six choices.",
+    icon: Users,
+    isNew: false,
+    scoreKey: "pairing",
+  },
+  {
+    id: 6,
+    title: "Sentence Function (Reading)",
+    link: "/skill-building/sentence-function",
+    description: "Identify the function of sentences within a passage.",
+    icon: List,
+    isNew: false,
+    scoreKey: "sentenceFunction",
+  },
+  {
+    id: 7,
+    title: "Support / Contrast (TC)",
+    link: "/skill-building/support-contrast",
+    description:
+      "Practice identifying support and contrast clues in typical Text Completion sentences.",
+    icon: Info,
+    isNew: false,
+    scoreKey: "supportContrast",
+  },
+];
